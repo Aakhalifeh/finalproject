@@ -1,0 +1,99 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+ .h1 {
+  color: blue;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif 
+    
+ }
+ 
+  h2 {
+    color: blue;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif
+  }
+  
+  p {
+    color: red;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+  }
+
+  .moved-image {
+    margin-top: 200px;
+  }
+
+  .image {
+    float: left; 
+    margin-right: 10px; 
+  }
+
+  .accordion-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
+  
+  .accordion-content.show {
+    display: block;
+  }
+
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .accordion-item {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .accordion-header h2 {
+    margin: 0;
+  }
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  .accordion-item.active .accordion-content {
+    display: block;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 20%;
+      }
+      
+      th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      th {
+        background-color: #f2f2f2;
+      }
